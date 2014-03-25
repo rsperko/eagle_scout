@@ -12,6 +12,7 @@ Requirements:
   * images/committee_chairman.png
 
 Steps:
+
 1. copy scout_info.rb to first_last.rb and edit it
   1. change name
   1. change date
