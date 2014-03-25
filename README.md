@@ -5,17 +5,17 @@ This is a bit of a hack, but it generates a nice PDF with the scout's name and e
 wrapped around it.
 
 Requirements:
-* Ruby 1.9 (http://rubyinstaller.org/)
+* Ruby 1.9 (http://rubyinstaller.org/) (greater?)
 * prawn ruby library (http://prawn.majesticseacreature.com/)
 * png image signatures of the scout master and committee chairman
   * images/scout_master.png
   * images/committee_chairman.png
 
 Steps:
-* copy scout_info.rb to first_last.rb and edit it
-** change name
-** change date
-** uncomment badges
-* edit eagle scout and change require_relative entry to match
-* run the script
-** ruby eagle_scout.rb
+1. copy scout_info.rb to first_last.rb and edit it
+  1. change name
+  1. change date
+  1. uncomment badges
+1. edit eagle scout and change require_relative entry to match
+1. run the script
+  1. ruby eagle_scout.rb
